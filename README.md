@@ -1,40 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 404-fake not found
 
-## Getting Started
+*A platform to guarantee that only genuine, community-verified news influences the markets.*
+Powered by **AI**, anchored in **transparency**, and protected by **decentralized consensus**.
 
-First, run the development server:
+<img width="669" alt="404" src="https://github.com/user-attachments/assets/a90b5a4e-dccb-48d6-a453-915d9e55d58b" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 💡 How We Came Up With the Idea
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+In today's fast-paced financial markets, misinformation spreads faster than facts — influencing prices, manipulating sentiment, and distorting public opinion. From viral tweets to deepfake videos, there's no reliable system for real-time verification of news content, especially in trading and finance.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+We asked ourselves:
+**What if there was a way to crowdsource truth, verify it transparently, and make sure markets respond only to facts — not fakes?**
+That question led to **404-fake not found**.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧨 The Problem
 
-To learn more about Next.js, take a look at the following resources:
+* 🚫 **Fake news affects markets**: Social media rumors and manipulated content can cause massive price swings.
+* ⏱️ **No real-time verification layer**: Existing fact-checking is slow and often manual.
+* 💰 **Traders act on noise**: Without tools to distinguish real from fake, misinformation becomes market-moving data.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✅ The Solution
 
-## Deploy on Vercel
+**404-fake not found** creates a **community-driven, AI-augmented verification layer** that:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Aggregates breaking news from X, YouTube, and web media.
+* Summarizes and scores content using **AI + NLP**.
+* Enables **users to stake TRUE tokens** and vote on whether content is real or suspicious.
+* Stores all content and vote outcomes on **IPFS and Solana**, ensuring transparency and immutability.
+* Rewards users for accurate verification and penalizes false validation.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+---
+
+## ⚙️ How Our Project Works
+
+1. **News Aggregation**
+
+   * Sources: X (Twitter), YouTube, online articles
+   * Aggregated in real-time and processed for context.
+
+2. **AI/NLP Processing**
+
+   * Content is summarized.
+   * Sentiment and market impact signals are extracted.
+
+3. **User Verification System**
+
+   * Users stake **10 TRUE tokens** to vote:
+
+     * ✅ Verified (≥90% consensus): content is marked legitimate, and rewards are distributed to verifiers.
+     * 🚫 Flagged (≥10%): content is removed, and rewards are sent to correct flaggers.
+
+4. **Reputation System**
+
+   * Users earn a **reputation score** for accuracy.
+   * Higher scores unlock privileges like converting TRUE tokens to stablecoins.
+
+5. **Token Flow**
+
+   * Rewards cycle through users.
+   * A small cut is recycled as protocol fees to support the platform.
+
+---
+
+## 🏗️ System Architecture Overview
+
+![architecture](https://github.com/user-attachments/assets/32ce622a-a818-48e7-ba1a-2d6953c1742a)
+
+---
+
+## 💹 Tokenomics
+
+<img width="939" alt="tokenomics" src="https://github.com/user-attachments/assets/573d37da-9113-4d9e-b8f9-57f3d20eba04" />
+
+---
+
+## 🛠️ Tech Stack Overview
+
+| Layer               | Description                                                                           |
+| ------------------- | ------------------------------------------------------------------------------------- |
+| **Storage**         | 🔐 [IPFS](https://ipfs.tech/) for decentralized, censorship-resistant content storage |
+| **Smart Contracts** | ⚡ [Solana](https://solana.com/) for low-latency, high-speed on-chain voting & rewards |
+| **AI Agents**       | 🤖 NLP models for summarization, sentiment scoring, and signal generation             |
+| **Token**           | 🪙 `TRUE` token for staking, rewards, and protocol fees                               |
+| **Users**           | 👥 Verified contributors vote, earn reputation, and get incentivized for accuracy     |
